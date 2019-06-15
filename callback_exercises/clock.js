@@ -44,7 +44,8 @@ class Clock {
       if (this.minute === 60) {
         this.hour += 1;
         this.minute = 0;
-      } if (this.hour === 24) {
+      } 
+      if (this.hour === 24) {
         this.hour = 0;
         this.minute = 0;
         this.second = 0;
